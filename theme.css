@@ -9,6 +9,12 @@
      one value tightens the whole app. */
   --space: 3.5px;
 
+  /* The rows of a conversation list in whole pixels, which the unit
+     alone would put between two. */
+  --session-row-height: 25px;
+  --subagent-row-height: 23px;
+  --project-row-height: 27px;
+
   --lh-body: 1.4;
   --chat-lh: 1.5;
 

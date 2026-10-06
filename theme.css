@@ -4,24 +4,13 @@
   /* One smaller corner for every rounded box. */
   --r: 6px;
 
-  --pad-row-y: 9px;
-  --pad-row-x: 14px;
-  --gap-row: 10px;
-  --pad-card: 9px 12px;
-  --pad-ctl: 0 10px;
-  --pad-ctl-lg: 0 14px;
-  --h-ctl: 26px;
-  --h-ctl-md: 30px;
-  --h-ctl-lg: 36px;
-  --icon-ctl-sm: 20px;
-  --icon-ctl-md: 26px;
-  --icon-ctl-lg: 32px;
-  --gap-stack: 6px;
-  --gap-inline: 4px;
-  --gap-page: 16px;
+  /* The scale's unit. Every inset, gap, offset and part size of the shell
+     is a count of it, the control heights and the frame included, so this
+     one value tightens the whole app. */
+  --space: 3.5px;
+
   --lh-body: 1.4;
   --chat-lh: 1.5;
-  --w-sidebar: 212px;
 
   --fs-cap: 11px;
   --fs-sm: 11.5px;

@@ -1,33 +1,11 @@
-# Compact for Hearthscale
+# Compact
 
-A denser Hearthscale: smaller corners, tighter spacing and smaller type.
+A denser Hearthscale: smaller corners, tighter spacing and smaller type. Compact changes only the shape and size of things, so your colours, the glass and the motion stay as they are, and the colourway you wear keeps working on top.
 
-Compact is a reference theme. It sets only shape, space and type tokens and has no
-class rules, so the glass, the depth, the motion and every colourway stay as they are.
-Read `theme.css` to see how little a theme needs to change the feel of the whole app:
-one value, `--space`, sets the density, because every inset, gap and size in
-Hearthscale is a count of it. Three row tokens keep the rows of a conversation list
-on whole pixels.
+## Get started
 
-Compact is the first worked example of the theme guide in Hearthscale's developer
-documentation, [Examples: Compact and Cupertino](https://hearthscale.com/docs/developers/themes/examples).
+Choose **Install**, then **Apply**. You can also choose **Compact** at any time under **Settings → Appearance**, in **Theme**, and go back the same way.
 
-## Install
+## What Compact asks for
 
-Install Compact from the Marketplace in Hearthscale, then select **Compact** under
-**Settings > Appearance > Theme**. A colourway you wear keeps working on top.
-
-To install it by hand instead, copy this folder into your themes folder: open
-**Settings > Appearance > Themes folder**, and place the folder so that its
-`manifest.json` sits directly inside `themes/compact/`.
-
-## Change it
-
-Clone this repository anywhere and start Hearthscale's development desktop from a
-source checkout with `HEARTHSCALE_DEV_THEME` naming the clone. The development desktop
-lists the folder as Compact, whatever the folder is called, and applies each save of
-`theme.css` at once. See [Make a theme](https://hearthscale.com/docs/developers/themes#develop).
-
-## Licence
-
-MIT. See `LICENSE`.
+Nothing. A theme changes only how Hearthscale looks: it holds no program, and Hearthscale loads nothing for it from the network.

@@ -3,5 +3,6 @@
   "name": "Compact",
   "version": "1.2.0",
   "description": "A denser Hearthscale: smaller corners, tighter spacing and smaller type.",
-  "author": "Hearthscale"
+  "author": "Hearthscale",
+  "payment": "free"
 }

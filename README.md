@@ -14,10 +14,12 @@ documentation, [Examples: Compact and Cupertino](https://hearthscale.com/docs/de
 
 ## Install
 
-1. Copy this folder into your themes folder. In Hearthscale, open
-   **Settings > Appearance > Themes folder**. Its `manifest.json` must sit directly
-   inside `themes/compact/`.
-2. Select **Compact** in the Theme picker. A colourway you wear keeps working on top.
+Install Compact from the Marketplace in Hearthscale, then select **Compact** under
+**Settings > Appearance > Theme**. A colourway you wear keeps working on top.
+
+To install it by hand instead, copy this folder into your themes folder: open
+**Settings > Appearance > Themes folder**, and place the folder so that its
+`manifest.json` sits directly inside `themes/compact/`.
 
 ## Change it
 
@@ -25,3 +27,7 @@ Clone this repository anywhere and start Hearthscale's development desktop from 
 source checkout with `HEARTHSCALE_DEV_THEME` naming the clone. The development desktop
 lists the folder as Compact, whatever the folder is called, and applies each save of
 `theme.css` at once. See [Make a theme](https://hearthscale.com/docs/developers/themes#develop).
+
+## Licence
+
+MIT. See `LICENSE`.
